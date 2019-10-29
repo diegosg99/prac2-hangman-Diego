@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 30px;
+  color: #777;
+  background-image: url('https://cdn.mos.cms.futurecdn.net/Q58wdw8FyGYZpw7Yun5HmZ.jpg');
+  background-size: 100%;
+}
+
+#contact button[type='submit']:hover {
+  background: #09c;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type='submit']:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+::-webkit-input-placeholder {
+  color: #888;
+}
+:-moz-placeholder {
+  color: #888;
+}
+::-moz-placeholder {
+  color: #888;
+}
+:-ms-input-placeholder {
+  color: #888;
+}
+
+body {
+  background: #40413a;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  font-size: 14px;
+  background-image: url('https://cdn.mos.cms.futurecdn.net/Q58wdw8FyGYZpw7Yun5HmZ.jpg');
+  background-size: 100%;
+}
+
+canvas {
+  margin-top: 1em;
+  color: #fff;
+  border: #fff dashed 2px;
+  padding: 15px;
+  width: 800px;
+  height: 400px;
+}
+
+.alphabet {
+  padding-top: 9%;
+  max-width: 90%;
+  padding-left: 3%;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+}
+
+.alphabet #alphabet li {
+  float: left;
+  margin: 0 6px 6px 0;
+  list-style: none;
+  width: 30px;
+  height: 40px;
+  padding-top: 4px;
+  background: #fff;
+  color: #40413a;
+  cursor: pointer;
+  align-content: center;
+  justify-content: center;
+  border: solid 1px #fff;
+}
+.pressed {
+  background-color: #680a07 !important;
+}
+#info {
+  margin: 5px auto;
+  display: flex;
+  padding-top: 4%;
+}
+#info p {
+  padding: 10px;
+  margin: 61px;
+  background-color: rgba(51, 41, 31, 0);
+}
+button {
+  background: #40413a;
+  color: #fff;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  #alphabet {
+    padding: 0 0 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  #alphabet {
+    padding: 0 0 0 25px;
+  }
+}
